@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    core:
+      url: jdbc:postgresql://localhost:5432/core
+      username: core
+      password: core
+      driverClassName: org.postgresql.Driver
+    iam:
+      url: jdbc:postgresql://localhost:5435/iam
+      username: iam_core
+      password: iam
+      driverClassName: org.postgresql.Driver
